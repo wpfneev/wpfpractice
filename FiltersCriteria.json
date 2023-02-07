@@ -1,0 +1,150 @@
+{
+  "TableName": "Student",
+  "ColumnData": [
+    {
+      "ID": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "FirstName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "LastName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "MiddleName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "FatherName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "MotherName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "Gaurdian": {
+        "DataType": "Boolean",
+        "Filters": [
+          true,
+          false
+        ]
+      },
+      "GaurdianName": {
+        "DataType": "String",
+        "Filters": [
+          "StartsWith",
+          "EndsWith",
+          "Contains",
+          "Equals",
+          "Not Equals"
+        ]
+      },
+      "DateOfBirth": {
+        "DataType": "DateTime",
+        "Filters": [
+          "LessThan",
+          "GreaterThan",
+          "Equals",
+          "Between",
+          "Not Equals",
+          "GreaterThanOrEqual",
+          "LessThanOrEqual"
+        ],
+        "FilterType": "SingleSelection"
+      },
+      "JoiningDate": {
+        "DataType": "DateTime",
+        "Filters": [
+          "LessThan",
+          "GreaterThan",
+          "Equals",
+          "Between",
+          "Not Equals",
+          "GreaterThanOrEqual",
+          "LessThanOrEqual"
+        ],
+        "FilterType": "SingleSelection"
+      },
+      "SchoolBranchId": {
+        "DataType": "Integer",
+        "Filters": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "FilterType": "MultiSelect"
+      },
+      "Class": {
+        "DataType": "String",
+        "Filters": [
+          "LKG",
+          "UKG",
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "IX",
+          "X",
+          "XI",
+          "XII"
+        ],
+        "FilterType": "MultiSelect"
+      },
+      "Section": {
+        "DataType": "String",
+        "Filters": [
+          "A",
+          "B",
+          "C",
+          "NA"
+        ],
+        "FilterType": "MultiSelect"
+      }
+    }
+  ]
+}
