@@ -1,0 +1,96 @@
+﻿<Window x:Class="Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp_Verition"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Home" Height="450" Width="867">
+
+    <Grid x:Name="grd_container" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="664*"/>
+            <ColumnDefinition Width="203*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Margin="10,10,16,0" x:Name="grd_container1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="304*"/>
+                <ColumnDefinition Width="109*"/>
+                <ColumnDefinition Width="95*"/>
+                <ColumnDefinition Width="123*"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="grid_Info" Margin="0,47,0,10" SelectionMode="Single" IsReadOnly="True" 
+                      SelectionChanged="grid_Info_SelectionChanged"
+           CanUserAddRows="False" AutoGenerateColumns="False" Grid.ColumnSpan="4">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="User#" Binding="{Binding UserId}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="User Name" Binding="{Binding Name}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Email Id" Binding="{Binding Email}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Password" Binding="{Binding Password}" Visibility="Hidden"></DataGridTextColumn>
+                    <DataGridTemplateColumn Header="Password" >
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="********"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridCheckBoxColumn Header="Is Active" Binding="{Binding IsActive}"></DataGridCheckBoxColumn>
+
+                    <!--<DataGridTemplateColumn Header="Edit">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="/" ClickMode="Press" Name="btnEdit" Click="btnEdit_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Delete">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="-" ClickMode="Press" Name="btnDelete" Click="btnDelete_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Add" Content="AddNew" HorizontalAlignment="Center" Margin="0,5,0,0" Click="btn_Add_Click" VerticalAlignment="Top" Width="76" Height="32" Grid.Column="2"/>
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Fetch" Content="Fetch" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Width="80" Height="32" RenderTransformOrigin="0.546,0.585" Grid.Column="1">
+
+            </Button>
+        </Grid>
+        <Grid x:Name="grd_container2" HorizontalAlignment="Center" Grid.Column="1" Width="183" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="101*"/>
+                <RowDefinition Height="61*"/>
+                <RowDefinition Height="63*"/>
+                <RowDefinition Height="209*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="176*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="txt_userId" HorizontalAlignment="Left" Visibility="Hidden" Width="6" Margin="0,41,0,40"/>
+            <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="txt_Name" HorizontalAlignment="Left" TextWrapping="Wrap" Width="156" Margin="0,66,0,15" />
+            <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="txt_Email" HorizontalAlignment="Left" TextWrapping="Wrap" Width="156" Grid.Row="1" Margin="0,22,0,19"/>
+            <TextBox x:Name="txt_Password" HorizontalAlignment="Left" Margin="0,32,0,0" VerticalAlignment="Top" Width="156" Height="20" Grid.Row="2"/>
+            <TextBlock x:Name="lbl_UserName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Center" Height="16" Width="59"/>
+            <TextBlock x:Name="lbl_Email" HorizontalAlignment="Left" Margin="0,6,0,0" TextWrapping="Wrap" Text="Email Address" VerticalAlignment="Top" Height="16" Width="74" Grid.Row="1"/>
+            <TextBlock x:Name="lbl_Password" HorizontalAlignment="Left" Margin="0,11,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="16" Width="50" Grid.Row="2"/>
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Edit" Click="btnEdit_Click" Content="Save" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top" Height="22" Width="80" Grid.Row="3">
+            </Button>
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Delete" Click="btnDelete_Click" Content="Delete" HorizontalAlignment="Left" Margin="85,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.563" Height="22" Width="80" Grid.Row="3"/>
+
+        </Grid>
+    </Grid>
+
+    <!--<Grid>
+        <TextBox HorizontalAlignment="Left" Margin="670,63,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.Name, ElementName=grid_Info, Mode=OneWay}"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="670,118,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.Email, ElementName=grid_Info, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="670,176,0,0" Text="{Binding SelectedItem.Password, ElementName=grid_Info, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="lbl_UserName" HorizontalAlignment="Left" Margin="670,42,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lbl_Email" HorizontalAlignment="Left" Margin="670,97,0,0" TextWrapping="Wrap" Text="Email Address" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lbl_Password" HorizontalAlignment="Left" Margin="670,155,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+    </Grid>-->
+</Window>
