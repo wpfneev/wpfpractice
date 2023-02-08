@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfMastery.CheckBoxDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMastery"
+        mc:Ignorable="d"
+        Title="CheckBoxDemo" Height="400" Width="400">
+    <StackPanel>
+        <Label FontSize="30" FontWeight="Bold">Topings</Label>
+        <CheckBox x:Name="cbParent" IsThreeState="True" Checked="cbParentCheckedChanged"></CheckBox>
+        <CheckBox VerticalContentAlignment="Center"
+                  Margin="15,5"
+                  x:Name="cbCheese"
+                  Checked="cbCheese_Checked"
+                  Unchecked="cbCheese_Unchecked">
+            <WrapPanel>
+                <Image Width="30" Source="images/pizza.jpg"></Image>
+                <Label Name="lblCheese">Extra Cheese</Label>
+            </WrapPanel>
+        </CheckBox>
+        <CheckBox 
+                  x:Name="cbTauma"
+                  Margin="15,5" 
+                  Checked="cbToppingsCheckedChanged"
+                  Unchecked="cbToppingsCheckedChanged">Tauma</CheckBox>
+        <CheckBox Margin="15,5"
+                  x:Name="cbHam"
+                  Checked="cbToppingsCheckedChanged"
+                  Unchecked="cbToppingsCheckedChanged">>Ham</CheckBox>
+    </StackPanel>
+</Window>

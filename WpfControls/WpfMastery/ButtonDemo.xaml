@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfMastery.ButtonDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMastery"
+        mc:Ignorable="d"
+        Title="ButtonDemo" Height="400" Width="400">
+    <!--<Grid>
+        
+    </Grid>-->
+    <StackPanel>
+        <Button 
+            x:Name="btnClick"
+            Height="40"
+            Width="100"
+            Background="BlueViolet"
+            Foreground="White"
+            Padding="10"
+            BorderThickness="1"
+            BorderBrush="Bisque"
+            Click="btnClick_Click"
+            ToolTip="I am a button"
+            MouseEnter="btnClick_MouseEnter"
+            MouseLeave="btnClick_MouseLeave"
+            >Save</Button>
+        <Label x:Name="lblText">I am Abhay Kumar Sharma</Label>
+    </StackPanel>
+</Window>

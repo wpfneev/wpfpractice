@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfMastery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMastery"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <StackPanel>
+        <!--<TextBlock 
+            HorizontalAlignment="Center"
+            Width="200"
+            Foreground="Pink"
+            Background="Blue"
+            Margin="10"
+            Padding="10"
+            Cursor="ArrowCD"
+            TextWrapping="Wrap"
+            >Hello World, My name is Abhay Kumar Sharma !</TextBlock>-->
+    </StackPanel>
+</Window>

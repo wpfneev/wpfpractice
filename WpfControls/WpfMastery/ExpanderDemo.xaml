@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfMastery.ExpanderDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMastery"
+        mc:Ignorable="d"
+        Title="ExpanderDemo" Height="400" Width="400">
+    <StackPanel>
+        <Expander Expanded="Expander_Expanded">
+            <Expander.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="images/pizza.jpg" Width="30"></Image>
+                    <TextBlock VerticalAlignment="Center">Click me to show and hide</TextBlock>
+                </StackPanel>
+            </Expander.Header>
+            <StackPanel>
+                <Button>Click Me</Button>
+                <DatePicker></DatePicker>
+                <TextBlock TextWrapping="Wrap">
+                Hii, i am Abhay who is a senior software engineer with more than 3 years of experience.
+                I am basically from Ranchi, Jharkhand.
+                </TextBlock>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</Window>
