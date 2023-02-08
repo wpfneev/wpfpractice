@@ -1,4 +1,6 @@
-﻿Imports System.Reflection
+﻿Imports System.ComponentModel
+Imports System.DirectoryServices
+Imports System.Reflection
 Imports System.Runtime.CompilerServices
 Imports System.Security.Cryptography
 Imports System.Windows.Markup
@@ -7,10 +9,21 @@ Imports DataAccess.Repositories
 Imports DataAccess.VeritionDBContext
 Public Class Home
     Dim repo As New UserRepository(New VeritionDBContext)
+    Dim dataSource As ICollectionView
     Private Sub btn_Fetch_Click(sender As Object, e As RoutedEventArgs) Handles btn_Fetch.Click
+        ''The below code is to assign the datasource for the grid
         grid_Info.ItemsSource = repo.GetAll
+
+        dataSource = CollectionViewSource.GetDefaultView(grid_Info.ItemsSource)
+        cmb_SortGrid.ItemsSource = GetColumns()
     End Sub
 
+    Private Function GetColumns() As ICollectionView
+        Dim cols = GetType(UserInformation).GetProperties().AsEnumerable().Select(Function(prop)
+                                                                                      Return prop.Name
+                                                                                  End Function)
+        Return CollectionViewSource.GetDefaultView(cols)
+    End Function
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
 
         ''Window loaded event handler
@@ -85,5 +98,20 @@ Public Class Home
         If DoesContainElement Then binder.ElementName = "grid_Info"
 
         CtrlTextBox.SetBinding(TextBox.TextProperty, binder)
+    End Sub
+    Private Sub cmb_SortGrid_SelectionChanged(sender As Object, e As SelectionChangedEventArgs)
+        Dim direction As SortDirection
+
+        ''dataSource.SortDescriptions.Add(New SortDescription("Name", SortDirection.Ascending))
+        If direction = SortDirection.Descending Then direction = SortDirection.Ascending Else direction = SortDirection.Descending
+
+        grid_Info.Items.SortDescriptions.Add(New SortDescription(cmb_SortGrid.SelectedIndex, direction))
+        ''Getting the method used to sort in the grid using reflection
+        Dim performSortMethod = GetType(DataGrid).GetMethod("PerformSort", BindingFlags.Instance Or BindingFlags.NonPublic)
+        performSortMethod?.Invoke(grid_Info, New Object() {grid_Info.Columns(cmb_SortGrid.SelectedIndex)})
+    End Sub
+
+    Private Sub grid_Info_Sorting(sender As Object, e As DataGridSortingEventArgs)
+
     End Sub
 End Class

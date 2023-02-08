@@ -23,7 +23,7 @@
             </Grid.ColumnDefinitions>
 
             <DataGrid x:Name="grid_Info" Margin="0,47,0,10" SelectionMode="Single" IsReadOnly="True" 
-                      SelectionChanged="grid_Info_SelectionChanged"
+                      SelectionChanged="grid_Info_SelectionChanged" Sorting="grid_Info_Sorting"
            CanUserAddRows="False" AutoGenerateColumns="False" Grid.ColumnSpan="4">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="User#" Binding="{Binding UserId}"></DataGridTextColumn>
@@ -57,8 +57,8 @@
             </DataGrid>
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Add" Content="AddNew" HorizontalAlignment="Center" Margin="0,5,0,0" Click="btn_Add_Click" VerticalAlignment="Top" Width="76" Height="32" Grid.Column="2"/>
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Fetch" Content="Fetch" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Width="80" Height="32" RenderTransformOrigin="0.546,0.585" Grid.Column="1">
-
             </Button>
+            <ComboBox x:Name="cmb_SortGrid" Grid.Column="3" VerticalAlignment="Top" SelectionChanged="cmb_SortGrid_SelectionChanged"></ComboBox> 
         </Grid>
         <Grid x:Name="grd_container2" HorizontalAlignment="Center" Grid.Column="1" Width="183" >
             <Grid.RowDefinitions>
@@ -81,7 +81,6 @@
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Edit" Click="btnEdit_Click" Content="Save" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top" Height="22" Width="80" Grid.Row="3">
             </Button>
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Delete" Click="btnDelete_Click" Content="Delete" HorizontalAlignment="Left" Margin="85,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.563" Height="22" Width="80" Grid.Row="3"/>
-
         </Grid>
     </Grid>
 
