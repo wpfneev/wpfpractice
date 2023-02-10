@@ -58,7 +58,13 @@
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Add" Content="AddNew" HorizontalAlignment="Center" Margin="0,5,0,0" Click="btn_Add_Click" VerticalAlignment="Top" Width="76" Height="32" Grid.Column="2"/>
             <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_Fetch" Content="Fetch" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Width="80" Height="32" RenderTransformOrigin="0.546,0.585" Grid.Column="1">
             </Button>
-            <ComboBox x:Name="cmb_SortGrid" Grid.Column="3" VerticalAlignment="Top" SelectionChanged="cmb_SortGrid_SelectionChanged"></ComboBox> 
+            <ComboBox x:Name="cmb_SortGrid" Grid.Column="3" VerticalAlignment="Top" SelectionChanged="cmb_SortGrid_SelectionChanged"></ComboBox>
+            <Viewbox Grid.Column="3" HorizontalAlignment="Left" Height="15" Stretch="Fill" VerticalAlignment="Bottom" Width="116"/>
+            <Grid Grid.Column="3" Margin="0,27,7,382">
+                <RadioButton x:Name="rad_az" GroupName="sortorder" IsChecked="True" Content="A-Z" HorizontalAlignment="Left"/>
+                <RadioButton x:Name="rad_za" GroupName="sortorder" Content="Z-A" HorizontalAlignment="Right"/>
+            </Grid>
+            <TextBox x:Name="txt_search" HorizontalAlignment="Left" Margin="139,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
         </Grid>
         <Grid x:Name="grd_container2" HorizontalAlignment="Center" Grid.Column="1" Width="183" >
             <Grid.RowDefinitions>

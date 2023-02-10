@@ -40,7 +40,7 @@
                 <PasswordBox x:Name="txt_password" Height="19" Width="276"/>
             </StackPanel>
             <Button x:Name="btn_SetValue" VerticalAlignment="Center" Grid.Row="1" Content="Login" Height="28" IsDefault="True" RenderTransformOrigin="0.501,0.551" Margin="165,0,8,0"/>
-
+        
         </Grid>
     </Border>
 </Window>

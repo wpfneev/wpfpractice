@@ -12,9 +12,14 @@ Public Class Home
     Dim dataSource As ICollectionView
     Private Sub btn_Fetch_Click(sender As Object, e As RoutedEventArgs) Handles btn_Fetch.Click
         ''The below code is to assign the datasource for the grid
-        grid_Info.ItemsSource = repo.GetAll
+        ''grid_Info.ItemsSource = repo.GetAll
+        ''Or we can get the collections view source from the object and assign that
+        dataSource = CollectionViewSource.GetDefaultView(repo.GetAll)
 
-        dataSource = CollectionViewSource.GetDefaultView(grid_Info.ItemsSource)
+        If Len(Trim(txt_search.Text)) > 0 Then dataSource.Filter = New Predicate(Of Object)(Function(x) x.Name.Contains(txt_search.Text))
+
+        grid_Info.ItemsSource = dataSource
+
         cmb_SortGrid.ItemsSource = GetColumns()
     End Sub
 
@@ -100,18 +105,22 @@ Public Class Home
         CtrlTextBox.SetBinding(TextBox.TextProperty, binder)
     End Sub
     Private Sub cmb_SortGrid_SelectionChanged(sender As Object, e As SelectionChangedEventArgs)
-        Dim direction As SortDirection
 
         ''dataSource.SortDescriptions.Add(New SortDescription("Name", SortDirection.Ascending))
-        If direction = SortDirection.Descending Then direction = SortDirection.Ascending Else direction = SortDirection.Descending
 
-        grid_Info.Items.SortDescriptions.Add(New SortDescription(cmb_SortGrid.SelectedIndex, direction))
+        ''grid_Info.Items.SortDescriptions.Add(New SortDescription(cmb_SortGrid.SelectedIndex, direction))
         ''Getting the method used to sort in the grid using reflection
         Dim performSortMethod = GetType(DataGrid).GetMethod("PerformSort", BindingFlags.Instance Or BindingFlags.NonPublic)
         performSortMethod?.Invoke(grid_Info, New Object() {grid_Info.Columns(cmb_SortGrid.SelectedIndex)})
+
     End Sub
 
     Private Sub grid_Info_Sorting(sender As Object, e As DataGridSortingEventArgs)
+        Dim direction As SortDirection
+
+        If rad_az.IsChecked Then direction = SortDirection.Descending Else direction = SortDirection.Ascending
+        e.Column.SortDirection = direction
 
     End Sub
+
 End Class
