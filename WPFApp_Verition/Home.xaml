@@ -65,6 +65,14 @@
                 <RadioButton x:Name="rad_za" GroupName="sortorder" Content="Z-A" HorizontalAlignment="Right"/>
             </Grid>
             <TextBox x:Name="txt_search" HorizontalAlignment="Left" Margin="139,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+            <ComboBox x:Name="cmb_searchCol" HorizontalAlignment="Left" Margin="50,17,0,0" VerticalAlignment="Top" Width="89" Height="18">
+                <ComboBox.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </ComboBox.Background>
+            </ComboBox>
         </Grid>
         <Grid x:Name="grd_container2" HorizontalAlignment="Center" Grid.Column="1" Width="183" >
             <Grid.RowDefinitions>

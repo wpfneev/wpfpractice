@@ -1,0 +1,99 @@
+﻿<Window x:Class="ElementsOverview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp_Verition"
+        mc:Ignorable="d"
+        Title="ElementsOverview" Height="846" Width="1235">
+    <!--Refer the discussion at https://stackoverflow.com/questions/35060859/wpf-radio-button-with-image-->
+    <Window.Resources>
+        <Style x:Key="RadioTemplate" TargetType="RadioButton">
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="False">
+                    <Setter Property="Opacity" Value="0.2"></Setter>
+                </Trigger>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Opacity" Value="1"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="CheckBox">
+            <Style.Setters>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="10,20,10,10"/>
+                <Setter Property="IsThreeState" Value="True"/>
+            </Style.Setters>
+           
+        </Style>
+        <Style x:Key="HeaderCheckBox" TargetType="CheckBox">
+            <Style.Setters>
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="0,20,10,10"/>
+                <Setter Property="IsThreeState" Value="True"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="2">
+            <TextBlock >Hello <Bold>World</Bold>
+             <LineBreak/>
+        Google <Hyperlink NavigateUri="https://www.google.com">Link</Hyperlink>
+
+            </TextBlock>
+            <TextBlock Grid.Column="2" TextTrimming="CharacterEllipsis">Text Trimming. This is another line with multiple lines of text is there. Copying over and over to break that automatically. Nothing happened</TextBlock>
+            <TextBlock Grid.Column="2" TextWrapping="Wrap">Text Wrapping This is <Span Foreground="Red">This is a span</Span>another line with multiple lines of text is there. Copying over and over to break that automatically. Nothing happened</TextBlock>
+       
+
+            <Label Grid.Column="2" Margin="15">
+                <StackPanel>
+
+                    <Image></Image>
+                    <AccessText>
+                        This is a label example
+                    </AccessText>
+                    <TextBox Margin="10" FontSize="20" SpellCheck.IsEnabled="True" Width="435"></TextBox>
+                </StackPanel>
+            </Label>
+
+            <AccessText FontWeight="Bold">
+                Select one Among them (Radio Button Example)</AccessText>
+            <RadioButton Style="{DynamicResource RadioTemplate}" VerticalContentAlignment="Center" FontSize="30" VerticalAlignment="Bottom" Height="50" Margin="0,10,30, 10" GroupName="Presidents" HorizontalAlignment="Left" Background="White">
+                <WrapPanel>
+                    <Image Source="C:\Users\NEEV\Downloads\Obama.jpg" Width="50" Height="50"/>
+                    <Label FontWeight="Bold">Obama</Label>
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton Style="{DynamicResource RadioTemplate}" Margin="0,10,30, 10" FontSize="30" GroupName="Presidents" VerticalContentAlignment="Center">
+                <WrapPanel>
+                    <Image Source="C:\Users\NEEV\Downloads\Trump.jpg"  Width="50" Height="50"/>
+                    <Label FontWeight="Bold">Trump</Label>
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton Style="{DynamicResource RadioTemplate}" Margin="0,10,30, 10" FontSize="30" FontWeight="Bold" GroupName="Presidents" VerticalContentAlignment="Center">
+                <WrapPanel>
+                    <Image Source="C:\Users\NEEV\Downloads\Kennedy.jpg"  Width="50" Height="50"></Image>
+                    <Label>Keith</Label>
+                </WrapPanel>
+            </RadioButton>
+            <AccessText>What is there with you</AccessText>
+
+            <Label FontSize="14" FontWeight="Bold">Available Toppings CheckBox Example</Label>
+            <CheckBox x:Name="cbx_selectAll" Style="{DynamicResource HeaderCheckBox}" Unchecked="cbx_selectAll_Checked" Checked="cbx_selectAll_Checked">Select All</CheckBox>
+            <CheckBox x:Name="cbx_garlic">Garlic</CheckBox>
+            <CheckBox x:Name="cbx_cheese">Cheese</CheckBox>
+            <CheckBox x:Name="cbx_tuna">Tuna</CheckBox>
+        </StackPanel>
+    </Grid>
+
+</Window>
