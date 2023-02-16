@@ -90,9 +90,9 @@
 
             <Label FontSize="14" FontWeight="Bold">Available Toppings CheckBox Example</Label>
             <CheckBox x:Name="cbx_selectAll" Style="{DynamicResource HeaderCheckBox}" Unchecked="cbx_selectAll_Checked" Checked="cbx_selectAll_Checked">Select All</CheckBox>
-            <CheckBox x:Name="cbx_garlic">Garlic</CheckBox>
-            <CheckBox x:Name="cbx_cheese">Cheese</CheckBox>
-            <CheckBox x:Name="cbx_tuna">Tuna</CheckBox>
+            <CheckBox x:Name="cbx_garlic" Checked="cbx_garlic_Checked" Unchecked="cbx_garlic_Checked" >Garlic</CheckBox>
+            <CheckBox x:Name="cbx_cheese" Checked="cbx_garlic_Checked" Unchecked="cbx_garlic_Checked">Cheese</CheckBox>
+            <CheckBox x:Name="cbx_tuna" Checked="cbx_garlic_Checked" Unchecked="cbx_garlic_Checked">Tuna</CheckBox>
         </StackPanel>
     </Grid>
 

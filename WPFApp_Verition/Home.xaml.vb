@@ -16,10 +16,15 @@ Public Class Home
         ''Or we can get the collections view source from the object and assign that
         dataSource = CollectionViewSource.GetDefaultView(repo.GetAll)
 
+        Dim colName = cmb_searchCol.SelectedValue
+
         If Len(Trim(txt_search.Text)) > 0 Then dataSource.Filter = New Predicate(Of Object)(Function(x) x.Name.Contains(txt_search.Text))
 
-        grid_Info.ItemsSource = dataSource
+        ''Data source has to be filtered out based on the search condition
 
+
+        grid_Info.ItemsSource = dataSource
+        cmb_searchCol.ItemsSource = GetColumns()
         cmb_SortGrid.ItemsSource = GetColumns()
     End Sub
 
@@ -56,6 +61,8 @@ Public Class Home
         SetControlBinding(txt_Name, "Name")
         SetControlBinding(txt_Email, "Email")
         SetControlBinding(txt_Password, "Password")
+        SetControlBinding(cbx_IsActive, "IsActive")
+
         ''repo.Add(userInfo)
         ''We have to open a new window or page. End user needs to add these details from UI.
     End Sub
@@ -93,16 +100,27 @@ Public Class Home
         SetControlBinding(txt_Name, "Name", True)
         SetControlBinding(txt_Email, "Email", True)
         SetControlBinding(txt_Password, "Password", True)
+        SetControlBinding(cbx_IsActive, "IsActive", True)
     End Sub
 
-    Private Sub SetControlBinding(CtrlTextBox As TextBox, bindProp As String, Optional DoesContainElement As Boolean = False)
+    Private Sub SetControlBinding(CtrlTextBox As Control, bindProp As String, Optional DoesContainElement As Boolean = False)
+
+        Dim bindingProperty As DependencyProperty = TextBox.TextProperty
+
         Dim binder As New Binding With {
             .Path = New PropertyPath("SelectedItem." & bindProp),
             .Mode = BindingMode.TwoWay
         }
         If DoesContainElement Then binder.ElementName = "grid_Info"
 
-        CtrlTextBox.SetBinding(TextBox.TextProperty, binder)
+        Select Case CtrlTextBox.GetType().Name
+            Case "TextBox"
+                bindingProperty = TextBox.TextProperty
+            Case "CheckBox"
+                bindingProperty = CheckBox.IsCheckedProperty
+        End Select
+
+        CtrlTextBox.SetBinding(bindingProperty, binder)
     End Sub
     Private Sub cmb_SortGrid_SelectionChanged(sender As Object, e As SelectionChangedEventArgs)
 
