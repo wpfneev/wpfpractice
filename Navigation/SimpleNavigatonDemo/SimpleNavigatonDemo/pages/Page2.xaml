@@ -1,0 +1,22 @@
+﻿<Page x:Class="SimpleNavigatonDemo.pages.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SimpleNavigatonDemo.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="400"
+      Title="Page2">
+
+    <StackPanel>
+        <Label>This is Page2.</Label>
+        <Button x:Name="goToPage1"
+                Click="goToPage1_Click">
+            Go To Page1
+        </Button>
+        <Button x:Name="goToPage3"
+                Click="goToPage3_Click">
+            Go To Page3
+        </Button>
+    </StackPanel>
+</Page>
