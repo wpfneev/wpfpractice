@@ -7,35 +7,7 @@
         mc:Ignorable="d"
         Title="ElementsOverview" Height="846" Width="1235">
     <!--Refer the discussion at https://stackoverflow.com/questions/35060859/wpf-radio-button-with-image-->
-    <Window.Resources>
-        <Style x:Key="RadioTemplate" TargetType="RadioButton">
-            <Style.Triggers>
-                <Trigger Property="IsChecked" Value="False">
-                    <Setter Property="Opacity" Value="0.2"></Setter>
-                </Trigger>
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Opacity" Value="1"></Setter>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        <Style TargetType="CheckBox">
-            <Style.Setters>
-                <Setter Property="FontWeight" Value="Bold"/>
-                <Setter Property="VerticalContentAlignment" Value="Center"/>
-                <Setter Property="Margin" Value="10,20,10,10"/>
-                <Setter Property="IsThreeState" Value="True"/>
-            </Style.Setters>
-           
-        </Style>
-        <Style x:Key="HeaderCheckBox" TargetType="CheckBox">
-            <Style.Setters>
-                <Setter Property="FontSize" Value="25" />
-                <Setter Property="VerticalContentAlignment" Value="Center"/>
-                <Setter Property="Margin" Value="0,20,10,10"/>
-                <Setter Property="IsThreeState" Value="True"/>
-            </Style.Setters>
-        </Style>
-    </Window.Resources>   
+    <!--UserControls examples https://social.technet.microsoft.com/wiki/contents/articles/52485.wpf-tips-and-tricks-using-contentcontrol-instead-of-frame-and-page-for-navigation.aspx-->
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -86,6 +58,9 @@
                     <Label>Keith</Label>
                 </WrapPanel>
             </RadioButton>
+            <ItemsControl>
+                <RadioButton Content="C:\Users\NEEV\Downloads\Kennedy.jpg" Width="20" Height="20"></RadioButton>
+            </ItemsControl>
             <AccessText>What is there with you</AccessText>
 
             <Label FontSize="14" FontWeight="Bold">Available Toppings CheckBox Example</Label>

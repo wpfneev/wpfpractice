@@ -9,7 +9,7 @@ Class MainWindow
 
         If user.Any Then
             Me.Hide()
-            Dim h As New Home
+            Dim h As New MDIWindow
             h.Show()
         End If
     End Sub

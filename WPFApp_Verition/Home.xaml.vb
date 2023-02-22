@@ -79,7 +79,8 @@ Public Class Home
                 .Name = txt_Name.Text,
                 .Email = txt_Email.Text,
                 .Password = txt_Password.Text,
-                .UserId = txt_userId.Text
+                .UserId = txt_userId.Text,
+                .IsActive = cbx_IsActive.IsChecked
             }
             repo.Add(userInfo) ''Notify the user about the addition of the data
         Else
@@ -88,6 +89,7 @@ Public Class Home
                 .Name = txt_Name.Text
                 .Email = txt_Email.Text
                 .Password = txt_Password.Text
+                .IsActive = cbx_IsActive.IsChecked
             End With
             repo.Update(userInfo)
         End If
