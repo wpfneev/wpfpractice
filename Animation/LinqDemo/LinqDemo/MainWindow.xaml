@@ -1,0 +1,19 @@
+﻿<Window x:Class="LinqDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LinqDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="OddNumber" Click="OddNumber_Click">Find Odd Number</Button>
+            <Button Name="EvenNumber" Click="EvenNumber_Click">Find Even Number</Button>
+            <Button Name="RemoveFilter" Click="RemoveFilter_Click">Remove Filter</Button>
+            <Button Name="Ascending" Click="Ascending_Click">Ascending</Button>
+            <Button Name="Descending" Click="Descending_Click">Descending</Button>
+        </StackPanel>
+        <TextBlock Name="MyTextBlock"/>
+    </StackPanel>
+</Window>

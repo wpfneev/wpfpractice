@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "a2KIalg5OFi7nRn6rYABHdVsIoI5A2vZyFjRMralQLP/1/f8DUocYl0WTPy3wYTbLp/V/rap95xLhw1n4RXcQQ==",
+  "success": true,
+  "projectFilePath": "D:\\Udemy_Wpf_Practice\\Animation\\TextSpeechDemo\\TextSpeechDemo\\TextSpeechDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NEEV\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
