@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="InstaUserControl.UserControls.PostOperationsUc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InstaUserControl.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="500">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Image x:Name="Heart"
+                   Source="/icons/nolike.jpg"
+                   Stretch="Uniform"
+                   MouseDown="Heart_MouseDown"/>
+            <Image x:Name="Comment"
+                   Margin="8"
+                   Source="/icons/comment.png"
+                   Stretch="Uniform"/>
+            <Image x:Name="Send"
+                   Margin="8"
+                   Source="/icons/send.png"
+                   Stretch="Uniform"/>
+        </StackPanel>
+        <Image Margin="8" 
+               Source="/icons/bookmark.png"
+               HorizontalAlignment="Right"/>
+    </Grid>
+</UserControl>
