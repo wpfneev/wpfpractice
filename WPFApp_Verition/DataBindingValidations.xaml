@@ -10,42 +10,57 @@
         <Style x:Key="LabelTextStyle" TargetType="{x:Type TextBlock}">
             <Setter Property="Padding" Value="10,0,50,0" />
         </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="10,0,0,0"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
         <Style TargetType="{x:Type Button}">
             <Setter Property="VerticalAlignment" Value="Bottom" />
+        </Style>
+        <!-- ValidatingControl Style -->
+        <Style TargetType="{x:Type FrameworkElement}" x:Key="ValidatingControl">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="{Binding 
+                Path=(Validation.Errors)[0].ErrorContent, 
+                RelativeSource={x:Static RelativeSource.Self}}" />
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="7*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
         <Label Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Stretch">
             <ContentControl>
-                <WrapPanel Orientation="Horizontal">
-                    <TextBlock Style="{DynamicResource LabelTextStyle}">Name</TextBlock>
-                    <TextBox HorizontalAlignment="Right" Width="200">
-                        <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock HorizontalAlignment="Left" Style="{DynamicResource LabelTextStyle}">Name</TextBlock>
+                    <TextBox HorizontalAlignment="Left" Width="200" Style="{DynamicResource ValidatingControl}">
+                        <Binding Path="Name" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>
                     <TextBlock Style="{DynamicResource LabelTextStyle}">Age</TextBlock>
-                    <TextBox HorizontalAlignment="Right" Width="200">
-                        <Binding Path="Age" UpdateSourceTrigger="PropertyChanged">
+                    <TextBox HorizontalAlignment="Right" Width="200" Style="{DynamicResource ValidatingControl}">
+                        <Binding Path="Age" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>
                     <TextBlock Style="{DynamicResource LabelTextStyle}">Desceription</TextBlock>
-                    <TextBox HorizontalAlignment="Right" Width="200">
-                        <Binding Path="Description" UpdateSourceTrigger="PropertyChanged">
+                    <TextBox HorizontalAlignment="Right" Width="200" Style="{DynamicResource ValidatingControl}">
+                        <Binding Path="Description" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>
-                </WrapPanel>
+                </StackPanel>
             </ContentControl>
         </Label>
         <TextBlock Grid.Column="2" x:Name="txtBlock_valid"></TextBlock>
-        <Button Grid.Row="1" Height="20" Click="Button_Click">Save</Button>
+        <Button Grid.Row="1" Height="20" HorizontalAlignment="Stretch" Click="Button_Click">Save</Button>
     </Grid>
 </Window>
