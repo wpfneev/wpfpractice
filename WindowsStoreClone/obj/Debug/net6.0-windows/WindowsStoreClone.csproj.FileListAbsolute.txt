@@ -1,0 +1,248 @@
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\001-mail inbox app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\ACDSee.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\DrawboardPDF.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\HotspotShield.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\Photoshop.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\PicsArt.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ProductivityAppIcons\YourPhone.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\WindowsStoreClone.exe
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\WindowsStoreClone.deps.json
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\WindowsStoreClone.runtimeconfig.json
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\WindowsStoreClone.dll
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\WindowsStoreClone.pdb
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Generic.Math.dll
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.csproj.AssemblyReference.cache
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\Pages\Main.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\AnApp.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\AppsViewer.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\ProductivityTopApps.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\TopApps.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone_Content.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone_MarkupCompile.cache
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone_MarkupCompile.lref
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\Pages\Main.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\AnApp.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\AppsViewer.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\ProductivityTopApps.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\UserControls\TopApps.baml
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.g.resources
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.AssemblyInfoInputs.cache
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.AssemblyInfo.cs
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.csproj.CoreCompileInputs.cache
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.csproj.CopyComplete
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.dll
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\refint\WindowsStoreClone.dll
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.pdb
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\WindowsStoreClone.genruntimeconfig.cache
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\obj\Debug\net6.0-windows\ref\WindowsStoreClone.dll
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\002-speech bubble.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\003-telephone.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\004-camera.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\005-image.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\006-weather app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\007-clock.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\008-maps.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\009-tv app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\010-notes.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\011-house.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\012-daily health app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\013-news.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\014-music.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\015-folder.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\016-stock exchange app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\017-web browser.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\018-calendar.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\019-reminders.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\020-video calling app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\021-podcast.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\022-wallet passes app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\023-app store.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\024-books.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\025-settings.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\026-tips.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\027-remote control.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\028-voice message app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\029-find my gadget app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\030-shortcut script app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\031-translate.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\032-smartwatch app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\033-calculator.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\034-music store app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\035-contacts.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\036-browser.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\037-bank.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\038-like.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\039-twitter.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\040-youtube.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\041-whatsapp.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\042-transport.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\043-streaming tv app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\044-search.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\045-instagram.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\046-shopping.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\047-pin.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\048-tiktok.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\049-messenger.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\050-edition.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\051-drive.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\052-snapchat.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\053-reddit.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\054-twitch.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\055-spotify.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\056-video editing app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\057-music maker app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\058-tinder.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\059-slack.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\060-telegram.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\061-discord.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\062-tumblr.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\063-slide show app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\064-movies app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\065-pages.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\066-spreadsheet app.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\067-mortarboard.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\068-waze.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\069-linkedin.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\070-file hosting.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\AppResourceIcons\SignIn.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\1.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\2.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\3.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\4.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\5.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\6.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\7.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\8.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\GameWideBackgroundIcons\AngryBirdsWBckg.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\001-computer - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\001-computer.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\002-video game - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\002-video game.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\003-palm tree - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\003-palm tree.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\004-dinosaur - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\004-dinosaur.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\005-cassette - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\005-cassette.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\006-game controller - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\006-game controller.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\007-turntable - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\007-turntable.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\008-sneaker - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\008-sneaker.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\009-flamingo - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\009-flamingo.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\010-carnival mask - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\010-carnival mask.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\011-vcr - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\011-vcr.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\012-ice pop - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\012-ice pop.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\013-rainbow - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\013-rainbow.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\014-hair spray - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\014-hair spray.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\015-pager - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\015-pager.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\016-lipstick - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\016-lipstick.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\017-joystick - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\017-joystick.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\018-earrings - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\018-earrings.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\019-phone - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\019-phone.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\020-cassette recorder - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\020-cassette recorder.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\021-ice cream cone - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\021-ice cream cone.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\022-3d glasses - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\022-3d glasses.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\023-waist pack - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\023-waist pack.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\024-shorts - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\024-shorts.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\025-magnetic - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\025-magnetic.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\026-radio - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\026-radio.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\027-candy - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\027-candy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\028-arcade machine - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\028-arcade machine.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\029-lollipop - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\029-lollipop.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\030-Soft drink - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\030-Soft drink.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\031-sunglasses - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\031-sunglasses.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\032-lava lamp - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\032-lava lamp.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\033-camera - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\033-camera.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\034-disco ball - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\034-disco ball.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\035-90s - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\035-90s.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\036-videotape - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\036-videotape.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\037-film roll - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\037-film roll.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\038-earrings - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\038-earrings.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\039-lp disc - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\039-lp disc.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\040-tv - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\040-tv.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\041-floppy disk - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\041-floppy disk.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\042-boombox - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\042-boombox.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\043-rollers - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\043-rollers.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\044-cassette player - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\044-cassette player.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\045-skateboard - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\045-skateboard.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\046-camper van - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\046-camper van.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\047-wristwatch - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\047-wristwatch.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\048-cellphone - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\048-cellphone.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\049-80s - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\049-80s.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\050-diamond - Copy.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\GameIcons\stockGameIcons\050-diamond.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\BubbleWitch.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\CandyCFriends.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\CandyCrush.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\CandyCSoda.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\Intel.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\Muse.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\PDFMerger.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\Spotify.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\TextToSpeech.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\MiniIcons\Twitter.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\topapp1.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\topappsmall1.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\topappsmall2.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\topappsmall3.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\topappsmall4.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\82-Circus fun.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\83-Race Extreme.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\84-chat message.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\85-Night.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\bridge.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\facade.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\motorcycle.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\portrait.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\sounder.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\train-track.jpg
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\ZoomIcon.png
+C:\Users\NEEV\source\repos\WindowsStoreClone\WindowsStoreClone\bin\Debug\net6.0-windows\Images\TopIcons\81-tropical.png
