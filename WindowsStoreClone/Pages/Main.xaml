@@ -33,7 +33,7 @@
             <TabItem Header="Home" Name="HomeTab">
                 <ScrollViewer x:Name="MainScrollViewer" 
                               Margin="10" 
-                              VerticalScrollBarVisibility="Hidden" 
+                              VerticalScrollBarVisibility="Hidden"
                               HorizontalScrollBarVisibility="Hidden"
                               Loaded="MainScrollViewer_Loaded"
                               Opacity="0.5"
@@ -42,9 +42,9 @@
                         <EventTrigger RoutedEvent="Loaded">
                             <BeginStoryboard>
                                 <Storyboard>
-                                    <DoubleAnimation From="0" To="1" Duration="0:0:10" Storyboard.TargetProperty="Opacity">
-
-                                    </DoubleAnimation>
+                                    <DoubleAnimation From="0" To="1" 
+                                                     Duration="0:0:10" 
+                                                     Storyboard.TargetProperty="Opacity"/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -56,7 +56,6 @@
                         HorizontalAlignment="Left"
                         Visibility="Visible"
                         Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}"
-                        Height="{Binding ElementName=MainScrollViewer, Path=ActualHeight}"
                         >
                         <!--placing the top apps-->
                         <uc:TopApps x:Name="TopApps" 
@@ -71,9 +70,9 @@
                                HorizontalAlignment="Left"/>
                         <uc:AppsViewer x:Name="FeaturesAppViewer"
                                        HorizontalAlignment="Left"
-                                       Margin="0,-5"
-                                       Padding="10"
-                                       Width="{Binding ElementName=MainTabControl, Path=ActualWidth, FallbackValue=400}">
+                                       Margin="2"
+                                       Width="{Binding ElementName=MainTabControl, Path=ActualWidth}"
+                                       >
 
                         </uc:AppsViewer>
 

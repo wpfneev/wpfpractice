@@ -26,5 +26,6 @@
                Height="{Binding ElementName=MainWindowMetro, Path=ActualHeight}"
                Loaded="MainWindowFrame_Loaded"
                />
+        
     </Grid>
 </Window>

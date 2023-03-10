@@ -20,6 +20,9 @@ namespace WindowsStoreClone.UserControls
     /// </summary>
     public partial class AnApp : UserControl
     {
+        //Delegate needs an APP to be passed in.
+        public delegate void onAppClicked(AnApp sender, RoutedEventArgs e);
+        public event onAppClicked AppClicked;
         public AnApp()
         {
             InitializeComponent();
@@ -35,7 +38,7 @@ namespace WindowsStoreClone.UserControls
 
         private void ProductImage_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            
+            AppClicked(this, e);
         }
     }
 }

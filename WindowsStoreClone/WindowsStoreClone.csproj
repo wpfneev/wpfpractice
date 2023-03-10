@@ -78,6 +78,8 @@
     <None Remove="Images\068-waze.png" />
     <None Remove="Images\069-linkedin.png" />
     <None Remove="Images\070-file hosting.png" />
+    <None Remove="Images\AppDetailIcons\01-tea.png" />
+    <None Remove="Images\AppDetailIcons\FieldBackground.jpg" />
     <None Remove="Images\AppResourceIcons\SignIn.png" />
     <None Remove="Images\GameIcons\1.png" />
     <None Remove="Images\GameIcons\2.png" />
@@ -432,6 +434,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\070-file hosting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\AppDetailIcons\01-tea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\AppDetailIcons\FieldBackground.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\AppResourceIcons\SignIn.png">

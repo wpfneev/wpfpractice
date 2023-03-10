@@ -7,10 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Pages\AppDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Main.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControls\AnApp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\AppDetailsTabContent\Overview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\AppDetailsTitleAndBackground.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControls\AppsViewer.xaml.cs">
@@ -27,10 +36,19 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\AppDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\Main.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\AnApp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\AppDetailsTabContent\Overview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\AppDetailsTitleAndBackground.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\AppsViewer.xaml">
