@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "JonSkeet.MiscUtil/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/MiscUtil.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/MiscUtil.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JonSkeet.MiscUtil/0.2.0": {
+      "sha512": "eKBBJzfVay4k1sQel05N1NyzmglO3TEhQ1K9nSqXxiVcpAXFF4y5sNFJQTxhQ4ZoM5+O0x0EasitbGKDL63yNA==",
+      "type": "package",
+      "path": "jonskeet.miscutil/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jonskeet.miscutil.0.2.0.nupkg.sha512",
+        "jonskeet.miscutil.nuspec",
+        "lib/net35/MiscUtil.dll",
+        "lib/net35/MiscUtil.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "JonSkeet.MiscUtil >= 0.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NEEV\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Udemy_Wpf_Practice\\ProjectsLastSection\\WindowStoreClone\\WindowStoreClone\\WindowStoreClone.csproj",
+      "projectName": "WindowStoreClone",
+      "projectPath": "D:\\Udemy_Wpf_Practice\\ProjectsLastSection\\WindowStoreClone\\WindowStoreClone\\WindowStoreClone.csproj",
+      "packagesPath": "C:\\Users\\NEEV\\.nuget\\packages\\",
+      "outputPath": "D:\\Udemy_Wpf_Practice\\ProjectsLastSection\\WindowStoreClone\\WindowStoreClone\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\NEEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "JonSkeet.MiscUtil": {
+            "target": "Package",
+            "version": "[0.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'JonSkeet.MiscUtil 0.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "JonSkeet.MiscUtil",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

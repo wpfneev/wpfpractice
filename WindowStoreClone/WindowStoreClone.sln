@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowStoreClone", "WindowStoreClone\WindowStoreClone.csproj", "{2289D58E-CDD0-4FF6-B631-4293F318BE92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2289D58E-CDD0-4FF6-B631-4293F318BE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2289D58E-CDD0-4FF6-B631-4293F318BE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2289D58E-CDD0-4FF6-B631-4293F318BE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2289D58E-CDD0-4FF6-B631-4293F318BE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88DE6816-C658-4138-B61C-1ABDD85B1F7D}
+	EndGlobalSection
+EndGlobal

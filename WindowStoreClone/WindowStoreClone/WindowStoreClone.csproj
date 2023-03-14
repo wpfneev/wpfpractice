@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\001-mail inbox app.png" />
+    <None Remove="images\002-speech bubble.png" />
+    <None Remove="images\007-clock.png" />
+    <None Remove="images\008-maps.png" />
+    <None Remove="images\009-tv app.png" />
+    <None Remove="images\AppDetailsIcon\058-tinder.png" />
+    <None Remove="images\AppDetailsIcon\059-slack.png" />
+    <None Remove="images\ProductivityAppIcons\ACDSee.png" />
+    <None Remove="images\ProductivityAppIcons\DrawboardPDF.png" />
+    <None Remove="images\ProductivityAppIcons\HotspotShield.png" />
+    <None Remove="images\ProductivityAppIcons\Photoshop.png" />
+    <None Remove="images\ProductivityAppIcons\PicsArt.png" />
+    <None Remove="images\ProductivityAppIcons\YourPhone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\001-mail inbox app.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\002-speech bubble.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\007-clock.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\008-maps.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\009-tv app.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\AppDetailsIcon\058-tinder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\AppDetailsIcon\059-slack.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\ACDSee.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\DrawboardPDF.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\HotspotShield.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\Photoshop.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\PicsArt.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ProductivityAppIcons\YourPhone.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.MiscUtil" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>
