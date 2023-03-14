@@ -13,6 +13,7 @@
         <Style TargetType="TextBox">
             <Setter Property="Margin" Value="10,0,0,0"/>
             <Setter Property="Height" Value="30"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
         </Style>
         <Style TargetType="{x:Type Button}">
             <Setter Property="VerticalAlignment" Value="Bottom" />
@@ -43,17 +44,17 @@
             <ContentControl>
                 <StackPanel Orientation="Vertical">
                     <TextBlock HorizontalAlignment="Left" Style="{DynamicResource LabelTextStyle}">Name</TextBlock>
-                    <TextBox HorizontalAlignment="Left" Width="200" Style="{DynamicResource ValidatingControl}">
+                    <TextBox HorizontalAlignment="Left" Width="200">
                         <Binding Path="Name" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>
                     <TextBlock Style="{DynamicResource LabelTextStyle}">Age</TextBlock>
-                    <TextBox HorizontalAlignment="Right" Width="200" Style="{DynamicResource ValidatingControl}">
+                    <TextBox HorizontalAlignment="Right" Width="200">
                         <Binding Path="Age" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>
                     <TextBlock Style="{DynamicResource LabelTextStyle}">Desceription</TextBlock>
-                    <TextBox HorizontalAlignment="Right" Width="200" Style="{DynamicResource ValidatingControl}">
+                    <TextBox HorizontalAlignment="Right" Width="200">
                         <Binding Path="Description" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
                         </Binding>
                     </TextBox>

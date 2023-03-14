@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp_Verition"
         mc:Ignorable="d"
-        Title="TabControls" AllowsTransparency="True" 
+        Title="TabControls" 
+        xmlns:uc="clr-namespace:WPFApp_Verition"
+        AllowsTransparency="True" 
         DataContext="{Binding RelativeSource={RelativeSource Self}}"
         WindowStyle="None" Height="450" Width="800">
     <Grid>
@@ -13,7 +15,10 @@
             <TabItem>
                 <TabItem.Header>FirstTab</TabItem.Header>
                 <TabItem.Content>
+                    <WrapPanel Orientation="Vertical">
                     <TextBlock Text="This is the text displaying from tab 1"></TextBlock>
+                    <uc:WindowPropChanger />
+                    </WrapPanel>
                 </TabItem.Content>
             </TabItem>
             <TabItem Header="SecondTab" IsSelected="False">

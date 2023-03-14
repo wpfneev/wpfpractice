@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp_Verition"
-        mc:Ignorable="d"
-        Title="Slider" Height="500" Width="500">
+        mc:Ignorable="d" Title="Slider"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Height="500" Width="500">
     <StackPanel VerticalAlignment="Center" Margin="10">
         <Slider x:Name="Slider_test" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" Maximum="100" Value="20" />
         <TextBlock x:Name="txt_SlideValue" FontSize="{Binding Value, ElementName=Slider_test, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Value, ElementName=Slider_test, Mode=OneWay}"></TextBlock>
@@ -15,5 +16,6 @@
             </Calendar.BlackoutDates>
         </Calendar>
         <TextBlock x:Name="txt_firstDate" Text="{Binding SelectedDate, ElementName=cal_firstDate, UpdateSourceTrigger=PropertyChanged}" />
+        <local:WindowPropChanger DataContext="{RelativeSource Self}" />
     </StackPanel>
 </Window>
