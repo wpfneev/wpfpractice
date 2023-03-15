@@ -1,0 +1,40 @@
+﻿<Window x:Class="CalculatorItemsCtrl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp_Verition"
+        mc:Ignorable="d"
+        Title="CalculatorItemsCtrl" Height="300" Width="231">
+    <Window.Resources>
+        <Style x:Key="btnBlock" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Margin" Value="2"/>
+        </Style>
+        
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.20*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" HorizontalAlignment="Stretch" Margin="2" VerticalAlignment="Stretch"/>
+        <ItemsControl x:Name="itemsCtrl" Grid.Row="1">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0">
+                        <Button Style="{StaticResource btnBlock}" Content="{Binding blockName}"/>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        </Grid>
+</Window>

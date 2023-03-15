@@ -15,7 +15,7 @@
             <Setter Property="Margin" Value="2"></Setter>
             <Setter Property="Background" Value="AliceBlue"></Setter>
             <Setter Property="FontSize" Value="20"/>
-            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
         </Style>
     </Window.Resources>
     <Grid>
