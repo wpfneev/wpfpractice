@@ -1,0 +1,12 @@
+D:\VeritionWPF\Training.UI\Traning.Core\bin\Debug\net6.0-windows\Traning.Core.deps.json
+D:\VeritionWPF\Training.UI\Traning.Core\bin\Debug\net6.0-windows\Traning.Core.dll
+D:\VeritionWPF\Training.UI\Traning.Core\bin\Debug\net6.0-windows\Traning.Core.pdb
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.csproj.AssemblyReference.cache
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.AssemblyInfoInputs.cache
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.AssemblyInfo.cs
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.csproj.CoreCompileInputs.cache
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.dll
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\refint\Traning.Core.dll
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\Traning.Core.pdb
+D:\VeritionWPF\Training.UI\Traning.Core\obj\Debug\net6.0-windows\ref\Traning.Core.dll

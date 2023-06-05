@@ -1,0 +1,15 @@
+D:\VeritionWPF\Training.UI\Training.ViewModels\bin\Debug\net6.0-windows\Training.ViewModels.deps.json
+D:\VeritionWPF\Training.UI\Training.ViewModels\bin\Debug\net6.0-windows\Training.ViewModels.dll
+D:\VeritionWPF\Training.UI\Training.ViewModels\bin\Debug\net6.0-windows\Training.ViewModels.pdb
+D:\VeritionWPF\Training.UI\Training.ViewModels\bin\Debug\net6.0-windows\Traning.Core.dll
+D:\VeritionWPF\Training.UI\Training.ViewModels\bin\Debug\net6.0-windows\Traning.Core.pdb
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.csproj.AssemblyReference.cache
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.AssemblyInfoInputs.cache
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.AssemblyInfo.cs
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.csproj.CoreCompileInputs.cache
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.csproj.CopyComplete
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.dll
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\refint\Training.ViewModels.dll
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\Training.ViewModels.pdb
+D:\VeritionWPF\Training.UI\Training.ViewModels\obj\Debug\net6.0-windows\ref\Training.ViewModels.dll
