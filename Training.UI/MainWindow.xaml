@@ -33,6 +33,17 @@
             <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding Age}"></TextBox>
             <Button Grid.Row="3" Grid.Column="1" Content="Add New" HorizontalAlignment="Right" Command="{Binding AddNewEmployee}"/>
         </Grid>
-        <DataGrid Grid.Column="1" ItemsSource="{Binding Path=Employees}" SelectedItem="{Binding ItemSelected}"/>
+        <ListView Grid.Column="1" ItemsSource="{Binding Path=Employees}" SelectedItem="{Binding ItemSelected}"
+                  >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding FirstName}" Header="FirstName"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding LastName}" Header="LastName"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding JobTitle}" Header="JobTitle"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding EmailIdee}" Header="EmailIdee"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding PhoneNo}" Header="PhoneNo"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>
