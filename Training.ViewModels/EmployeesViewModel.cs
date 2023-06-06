@@ -14,11 +14,20 @@ namespace Training.ViewModels
         public EmployeesViewModel() { 
 
             Employees = new ObservableCollection<Employee>();
-            this.AddNewEmployee = new RelayCommand(() => MessageBox.Show("The add button has been clicked, functionality needs to be implemented"));
+            this.AddNewEmployee = new RelayCommand((parameter) =>
+            {
+                this.Employees.Add(new Employee(this.FirstName, this.LastName, int.Parse(this.Age)));
+                MessageBox.Show("Employee Added!");
+            });
             PopulateStaticData();
         }
 
         public ICommand AddNewEmployee { get; set; }
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        public string Age { get; set; }
 
         public Employee ItemSelected
         {
@@ -26,13 +35,13 @@ namespace Training.ViewModels
             set
             {
                 itemSelected = value;
-                MessageBox.Show(string.Format("The Selected Employee {0}{1} ", itemSelected.FirstName, itemSelected.LastName));
+                //MessageBox.Show(string.Format("The Selected Employee {0}{1} ", itemSelected.FirstName, itemSelected.LastName));
             }
         }
 
         private void PopulateStaticData()
         {
-            for(int index = 0; index < 1000; index++)
+            for(int index = 0; index < 10; index++)
             {
                 this.Employees.Add(new Employee("John " + index, "Doe " + index, index));
             }

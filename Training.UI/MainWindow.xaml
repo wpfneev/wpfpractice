@@ -26,11 +26,11 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0" Content="First Name"></Label>
-            <TextBox Grid.Row="0" Grid.Column="1" Margin="5"></TextBox>
+            <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding FirstName}"></TextBox>
             <Label Grid.Row="1" Grid.Column="0" Content="Last Name"></Label>
-            <TextBox Grid.Row="1" Grid.Column="1" Margin="5"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding LastName}"></TextBox>
             <Label Grid.Row="2" Grid.Column="0" Content="Age"></Label>
-            <TextBox Grid.Row="2" Grid.Column="1" Margin="5"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding Age}"></TextBox>
             <Button Grid.Row="3" Grid.Column="1" Content="Add New" HorizontalAlignment="Right" Command="{Binding AddNewEmployee}"/>
         </Grid>
         <DataGrid Grid.Column="1" ItemsSource="{Binding Path=Employees}" SelectedItem="{Binding ItemSelected}"/>
