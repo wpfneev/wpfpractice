@@ -34,16 +34,33 @@
             <Button Grid.Row="3" Grid.Column="1" Content="Add New" HorizontalAlignment="Right" Command="{Binding AddNewEmployee}"/>
         </Grid>
         <ListView Grid.Column="1" ItemsSource="{Binding Path=Employees}" SelectedItem="{Binding ItemSelected}"
-                  >
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding FirstName}" Header="FirstName"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding LastName}" Header="LastName"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding JobTitle}" Header="JobTitle"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding EmailIdee}" Header="EmailIdee"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding PhoneNo}" Header="PhoneNo"/>
-                </GridView>
-            </ListView.View>
+                 Width="250" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="5" Width="240" Margin="2" Background="LightBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Content="FirstName"/>
+                            <Label Grid.Row="0" Grid.Column="1" Content="{Binding Path=FirstName}"/>
+                            <Label Grid.Row="1" Grid.Column="0" Content="LastName"/>
+                            <Label Grid.Row="1" Grid.Column="1" Content="{Binding Path=LastName}"/>
+                            <Label Grid.Row="2" Grid.Column="0" Content="PhoneNo"/>
+                            <Label Grid.Row="2" Grid.Column="1" Content="{Binding Path=PhoneNo}"/>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Email Id"/>
+                            <Label Grid.Row="3" Grid.Column="1" Content="{Binding Path=EmailIdee}"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
     </Grid>
 </Window>
