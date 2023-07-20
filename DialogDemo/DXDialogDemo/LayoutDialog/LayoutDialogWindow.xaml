@@ -1,0 +1,100 @@
+﻿<UserControl  xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                  x:Class="DXDialogDemo.LayoutDialog.LayoutDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DXDialogDemo.LayoutDialog"
+                  xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+                  xmlns:system="clr-namespace:System;assembly=mscorlib"
+                  xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+                  xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+         xmlns:ve="http://schemas.devexpress.com/winfx/2008/xaml/docking/visualelements"
+                  mc:Ignorable="d" 
+         xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"          
+        >
+    <UserControl.DataContext>
+        <local:LayoutDialogWindowViewModel/>
+    </UserControl.DataContext>
+    <!--<dxmvvm:Interaction.Behaviors>
+        <dxmvvm:CurrentWindowService />
+    </dxmvvm:Interaction.Behaviors>-->
+    <Grid>
+        <dxdo:DockLayoutManager Grid.Row="1"  x:Name="dockLayoutManager" >
+
+
+            <dxdo:LayoutGroup Orientation="Horizontal" MinHeight="500" MinWidth="500" AllowClose="False" AllowDock="False" ShowCloseButton="False" ShowScrollNextButton="False" ShowScrollPrevButton="False">
+                <dxdo:LayoutGroup.ItemStyle>
+                    <Style TargetType="dxdo:LayoutPanel">
+                        <Setter Property="ShowPinButton" Value="False"/>
+                        <Setter Property="ShowCloseButton" Value="False"/>
+                        <!--<Setter Property="CloseCommand" Value="{Binding Path=Window.DataContext.CloseCommand, RelativeSource={RelativeSource Self}}"/>-->
+                    </Style>
+                </dxdo:LayoutGroup.ItemStyle>
+                <dxdo:LayoutPanel ItemWidth="500" ItemHeight="2*" CaptionHorizontalAlignment="Stretch" ShowMaximizeButton="False" ShowMinimizeButton="False" HorizontalContentAlignment="Stretch" Background="#FFF6F6F6" TabBackgroundColor="#FF2562DD">
+                    <dxdo:LayoutPanel.Appearance>
+                        <dxdo:Appearance>
+                            <dxdo:Appearance.Normal>
+                                <dxdo:AppearanceObject Foreground="Blue"/>
+                            </dxdo:Appearance.Normal>
+                        </dxdo:Appearance>
+                    </dxdo:LayoutPanel.Appearance>
+                    <dxdo:LayoutPanel.CaptionTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="40"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding Title}"  Margin="0,0,237,0" />
+                                    <dx:SimpleButton Grid.Column="1" HorizontalAlignment="Right" Width="60" Margin="90,0,5,0">
+                                        <dx:SimpleButton.ContentTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="Close"></TextBlock>
+                                            </DataTemplate>
+                                        </dx:SimpleButton.ContentTemplate>
+                                    </dx:SimpleButton>
+                                    <Button Grid.Column="1" HorizontalAlignment="Right" Width="40" Margin="157,0,0,0"
+                                           Command="">
+                                        <Button.ContentTemplate>
+                                            <DataTemplate>
+                                                <Image HorizontalAlignment="Right" Height="20" Margin="3,0,3,0" Width="20" Source="/LayoutDialog/close.png">
+                                                    <!--<Image.Style>
+                                                        <Style>
+                                                            <Setter Property=""
+                                                        </Style>
+                                                    </Image.Style>-->
+                                                </Image>
+                                            </DataTemplate>
+                                        </Button.ContentTemplate>
+                                    </Button>
+                                    <!--Width="{Binding ActualWidth, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type dxdo:LayoutPanel}}}"-->
+                                    <!--<CheckBox Grid.Column="1" x:Name="chkScrollAutomatico" 
+                                              ve:DockPane.HitTestType="ControlBox"
+                                                    DockPanel.Dock="Right" 
+                                                    HorizontalAlignment="Right"
+                                                    ToolTip="Scroll Automatico" >
+                                        <CheckBox.Visibility>
+                                            <MultiBinding Converter="{local:Converter}">
+                                                <Binding RelativeSource="{RelativeSource AncestorType=dxdo:LayoutPanel}" />
+                                                <Binding RelativeSource="{RelativeSource AncestorType=dxdo:DockLayoutManager}"/>
+                                            </MultiBinding>
+                                        </CheckBox.Visibility>
+                                    </CheckBox>-->
+                                </Grid>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </dxdo:LayoutPanel.CaptionTemplate>
+
+                </dxdo:LayoutPanel>
+            </dxdo:LayoutGroup>
+
+        </dxdo:DockLayoutManager>
+    </Grid>
+
+</UserControl>
